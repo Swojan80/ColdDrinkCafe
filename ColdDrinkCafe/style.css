@@ -1,0 +1,160 @@
+/* General Reset and Font Settings */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles with more professional appearance */
+header {
+    background-color: #02475e; /* Deep blue for better contrast */
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer with fixed positioning and more subtle styling */
+footer {
+    background-color: #eeeeee; /* Soft gray background */
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+/* Container for better spacing and alignment */
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.12);
+}
+
+/* Improved table styling for readability */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #0284c7; /* Slightly lighter blue for headers */
+    color: #ffffff;
+}
+
+/* Input and Select box styling for cleaner interface */
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styles with hover effects for interactivity */
+input[type="submit"], a.button-link {
+    background-color: #04aa6d; /* Green for primary actions */
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover, a.button-link:hover {
+    background-color: #037d56; /* Darker green on hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Link styles for consistency and better usability */
+a {
+    color: #0165a8; /* Consistent blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments for better mobile viewing */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    header {
+        font-size: 24px;
+        padding: 15px 0;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Categories Navigation Styling */
+.categories {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Visual separation */
+}
+
+.categories a {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.categories a.active {
+    background-color: #0284c7;
+    color: white;
+    border-color: #026ba1;
+}
+
+/* Sorting and Add Drink Button Styling */
+.sorting, .add-drink {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sorting a, .add-drink a {
+    padding: 8px 15px;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.sorting a:hover, .add-drink a:hover {
+    background-color: #037d56;
+}
+
